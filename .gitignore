@@ -1,0 +1,55 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+*.venv
+.Python
+
+# Test reports and logs
+reports/
+*.log
+*.html
+*.xml
+
+# Selenium-specific
+.screenshots/
+output/
+allure-results/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Pytest cache
+.cache/
+pytestdebug.log
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Appium-related files (if used)
+node_modules/
+npm-debug.log*
+appium.log
+
+# Ignore uploaded/downloaded test data files
+downloads/
+uploads/
+*.apk
+*.ipa
